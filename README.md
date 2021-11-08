@@ -9,8 +9,17 @@ telegram crawler for gathering data
 
 ```pip install -r requirements```
 
-## ⭐ **How to use**
-i recommend using a brand new telegram account
-for using this bot join to a few groups or channels manually then just wait, the bot will join every telegram handle or link and stores all links in sqlite3 database 
-you can modify the bot for storing other data (media/messages,...)
+##  **How to use**
+I recommend using a brand new telegram account
+### 🟡 clone the repo
+download this repo or clone it
+### 🟡 edit the ```config.ini```
+got to  [**thislink**](https://my.telegram.org/auth) and get your api id and api hash and replace them into config.ini
+### 🟡 run code
+run the code using this command:
+
+```python main.py```
+
+the bot will join every telegram handle or link and stores all links in sqlite3 database 
+you can modify the bot for storing other data (media/messages,...) too
 
