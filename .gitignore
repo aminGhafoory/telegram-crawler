@@ -1,0 +1,6 @@
+*.session
+*.session-journal
+.vscode
+.config.ini
+*__pycache__/
+*.db
