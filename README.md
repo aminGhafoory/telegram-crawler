@@ -1,3 +1,6 @@
+![Telegram_(software)-Logo wine](https://user-images.githubusercontent.com/74732606/140754261-098b1925-5748-46a3-8afd-652511e861a6.png)
+
+
 # 🕷️telegram-crawler
 telegram crawler for gathering data
 
