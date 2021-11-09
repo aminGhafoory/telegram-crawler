@@ -93,7 +93,7 @@ async def main(event):
             print(re_result["link"])
             time = datetime.now().strftime("%Y-%m-%d")
             data = re_result["link"]
-            sql = f"INSERT INTO links_table VALUES ('{time}','{data}')"
+            sql = f"INSERT OR IGNORE INTO links_table VALUES ('{time}','{data}')"
             cur.execute(sql)
             con.commit()
 
