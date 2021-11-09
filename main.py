@@ -48,8 +48,8 @@ async def joiner(event):
             with open("already_joined.txt", "a") as f:
                 f.write(f'{re_result["username"]}\n')
 
-        except FloodWaitError:
-            pass
+        except FloodWaitError as err:
+            print(err)
 
         except Exception as err:
             print(err)
@@ -75,7 +75,7 @@ async def joiner_2(event):
             with open("already_joined.txt", "a") as f:
                 f.write(f'{re_result2["handle"]}\n')
 
-        except FloodWaitErroras as  err:
+        except FloodWaitError as  err:
             print(err)
 
 
